@@ -1,0 +1,25 @@
+{
+  "name": "mean-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sogeuni/MEAN-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sogeuni/MEAN-study/issues"
+  },
+  "homepage": "https://github.com/sogeuni/MEAN-study#readme",
+  "dependencies": {
+    "async": "^2.0.1",
+    "colors": "^1.1.2",
+    "mongoose": "^4.6.0",
+    "mongoose-post-find": "0.0.2"
+  }
+}
