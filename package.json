@@ -20,6 +20,7 @@
     "async": "^2.0.1",
     "bson": "^0.5.4",
     "colors": "^1.1.2",
+    "express": "^4.14.0",
     "mongoose": "^4.6.0",
     "mongoose-post-find": "0.0.2"
   }
