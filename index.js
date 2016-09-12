@@ -1,4 +1,5 @@
 var http = require('http');
+require('./lib/connection');
 var employeeService = require('./lib/employees');
 var responder = require('./lib/responseGenerator');
 var staticFile = responder.staticFile('/public');
@@ -18,7 +19,7 @@ http.createServer(function (req, res) {
 		return res.end(req.method + ' is not implemented by this server.');
 	}
 
-	if (_url = /^\/employee$/i.exec(req.url)) {
+	if (_url = /^\/employees$/i.exec(req.url)) {
 		// 직원 목록 반환
 		employeeService.getEmployees(function (err, data) {
 			if (err) {
