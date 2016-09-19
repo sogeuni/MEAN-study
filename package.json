@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "populate": "node ./bin/populate_db"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "populate": "node ./bin/populate_db",
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -18,10 +20,13 @@
   "homepage": "https://github.com/sogeuni/MEAN-study#readme",
   "dependencies": {
     "async": "^2.0.1",
-    "bson": "^0.5.4",
-    "colors": "^1.1.2",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.2.0",
     "express": "^4.14.0",
     "mongoose": "^4.6.0",
-    "mongoose-post-find": "0.0.2"
+    "mongoose-post-find": "0.0.2",
+    "morgan": "^1.7.0",
+    "serve-favicon": "^2.3.0"
   }
 }
